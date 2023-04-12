@@ -1,0 +1,5 @@
+mode: set
+hello/hello.go:7.30,8.14 1 1
+hello/hello.go:11.2,11.25 1 1
+hello/hello.go:8.14,10.3 1 1
+hello/hello.go:14.13,16.2 1 0
