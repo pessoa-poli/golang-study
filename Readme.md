@@ -6,7 +6,7 @@ https://go.dev/talks/2012/concurrency.slide#1
 
 https://vimeo.com/49718712
 
-Concurrency is a Model For Software Construction - Rob Pike
+Concurrency is a Model For Software Construction - Rob Pike  
 Concurrency is the composition of independently executing computations. 
 Concurrency is about dealing with a lot of things at once, and parallelism is about doing a lot of things at once.
 Concurrency is a way of structuring things so that mayber with parallelism you could do a better job, but parallelism is not the goal of concurrency.
