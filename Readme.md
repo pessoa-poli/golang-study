@@ -9,7 +9,7 @@ https://vimeo.com/49718712
 Concurrency is a Model For Software Construction - Rob Pike  
 Concurrency is the composition of independently executing computations.  
 Concurrency is about dealing with a lot of things at once, and parallelism is about doing a lot of things at once.  
-Concurrency is a way of structuring things so that maybe with parallelism you could do a better job, but parallelism is not the goal of concurrency.
+Concurrency is a way of structuring things so that maybe with parallelism you could do a better job, but parallelism is not the goal of concurrency.  
 Concurrency's goal is a good structure.  
 ### Go enables concurrent designs by haveing 4 essential features:  
 Goroutines, Channels, the Select structure and Closures.  
