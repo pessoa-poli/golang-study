@@ -7,13 +7,16 @@ https://go.dev/talks/2012/concurrency.slide#1
 https://vimeo.com/49718712
 
 Concurrency is a Model For Software Construction - Rob Pike  
-Concurrency is the composition of independently executing computations. 
-Concurrency is about dealing with a lot of things at once, and parallelism is about doing a lot of things at once.
-Concurrency is a way of structuring things so that mayber with parallelism you could do a better job, but parallelism is not the goal of concurrency.
-Concurrency's goal is a good structure.
-### Go enables concurrent designs by haveing 4 essential:
-features: Goroutines, Channels, the Select structure and Closures.  
-A goroutine is a lightweight thread of execution.  
+Concurrency is the composition of independently executing computations.  
+Concurrency is about dealing with a lot of things at once, and parallelism is about doing a lot of things at once.  
+Concurrency is a way of structuring things so that maybe with parallelism you could do a better job, but parallelism is not the goal of concurrency.
+Concurrency's goal is a good structure.  
+### Go enables concurrent designs by haveing 4 essential features:  
+Goroutines, Channels, the Select structure and Closures.  
+- A goroutine is a lightweight thread of execution.
+- A Channel is a [first class citzen](https://www.google.com/search?client=firefox-b-d&q=language+first+class+citzen) in the Go language, that allows communication between processes
+- The select structure support channels to pipe actions on demmand depending on which channel sent data to the orchestrating area of the code
+- Closures: By allowing a function variable to reference values outside the function scope, concurrent design is created.
 	
 # Read Communicating Sequential Processes
 PDF Included in this repository.
